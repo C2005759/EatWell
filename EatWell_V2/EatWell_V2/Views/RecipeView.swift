@@ -5,4 +5,13 @@
 //  Created by Shilin Li on 28/07/2024.
 //
 
-import Foundation
+import SwiftUI
+
+struct RecipeView: View {
+    var body: some View {
+        Text("Recipes")
+            .font(.largeTitle)
+            .padding()
+    }
+}
+

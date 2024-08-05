@@ -28,6 +28,21 @@ extension FoodItem {
     @NSManaged public var expirationDate: Date?
     @NSManaged public var categoryTag: String?
 
+/// Function to check if the item is about to expire
+    var isAboutToExpire: Bool {
+        guard let expirationDate = expirationDate else { return false }
+        return expirationDate.timeIntervalSinceNow < 3 * 24 * 60 * 60 // 3 days
+    }
+    
+    /// Function to update food item details
+    func update(name: String?, quantity: Double, unit: String?, isOpened: Bool, expirationDate: Date?, categoryTag: String?) {
+        self.name = name
+        self.quantity = quantity
+        self.unit = unit
+        self.isOpened = isOpened
+        self.expirationDate = expirationDate
+        self.categoryTag = categoryTag
+    }
 }
 
 extension FoodItem : Identifiable {

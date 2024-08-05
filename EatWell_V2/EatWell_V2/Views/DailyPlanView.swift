@@ -6,3 +6,13 @@
 //
 
 import Foundation
+import SwiftUI
+
+struct DailyPlanView: View {
+    var body: some View {
+        Text("Daily Plan")
+            .font(.largeTitle)
+            .padding()
+    }
+}
+

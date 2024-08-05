@@ -21,6 +21,23 @@ extension ShoppingList {
 
     @NSManaged public var id: UUID?
     @NSManaged public var foodItems: NSSet?
+    
+/// Function to add a food item to the shopping list
+    func add(foodItem: FoodItem) {
+        let items = self.mutableSetValue(forKey: "foodItems")
+        items.add(foodItem)
+    }
+    
+    /// Function to remove a food item from the shopping list
+    func remove(foodItem: FoodItem) {
+        let items = self.mutableSetValue(forKey: "foodItems")
+        items.remove(foodItem)
+    }
+    
+    /// Function to clear the shopping list
+    func clear() {
+        self.foodItems = nil
+    }
 
 }
 

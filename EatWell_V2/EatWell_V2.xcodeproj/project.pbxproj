@@ -11,11 +11,24 @@
 		4F09B4402C01102F0005A798 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F09B43F2C01102F0005A798 /* ContentView.swift */; };
 		4F09B4422C0110310005A798 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F09B4412C0110310005A798 /* Assets.xcassets */; };
 		4F09B4452C0110310005A798 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F09B4442C0110310005A798 /* Preview Assets.xcassets */; };
-		4F09B4472C0110310005A798 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F09B4462C0110310005A798 /* Persistence.swift */; };
 		4F09B44A2C0110310005A798 /* EatWell_V2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4F09B4482C0110310005A798 /* EatWell_V2.xcdatamodeld */; };
 		4F09B4542C0110310005A798 /* EatWell_V2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F09B4532C0110310005A798 /* EatWell_V2Tests.swift */; };
 		4F09B45E2C0110310005A798 /* EatWell_V2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F09B45D2C0110310005A798 /* EatWell_V2UITests.swift */; };
 		4F09B4602C0110310005A798 /* EatWell_V2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F09B45F2C0110310005A798 /* EatWell_V2UITestsLaunchTests.swift */; };
+		4F09B46E2C0111580005A798 /* FoodItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F09B46C2C0111580005A798 /* FoodItem.swift */; };
+		4F09B4722C08F39E0005A798 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F09B4702C08F39E0005A798 /* Recipe.swift */; };
+		4F09B4792C0A6E6A0005A798 /* ShoppingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F09B4752C0A6E6A0005A798 /* ShoppingList.swift */; };
+		4F09B47B2C0A6E6A0005A798 /* DailyPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F09B4772C0A6E6A0005A798 /* DailyPlan.swift */; };
+		4F09B47F2C0A76F50005A798 /* FoodItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F09B47E2C0A76F50005A798 /* FoodItemViewModel.swift */; };
+		4F09B4822C0A77A70005A798 /* FoodItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F09B4812C0A77A70005A798 /* FoodItemView.swift */; };
+		4F24E1022C56EB6200C658F1 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F24E1012C56EB6200C658F1 /* MainView.swift */; };
+		4F24E1042C56EBAD00C658F1 /* RecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F24E1032C56EBAD00C658F1 /* RecipeView.swift */; };
+		4F24E1062C56EBDA00C658F1 /* DailyPlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F24E1052C56EBDA00C658F1 /* DailyPlanView.swift */; };
+		4F24E1082C56EBF500C658F1 /* ShoppingListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F24E1072C56EBF500C658F1 /* ShoppingListView.swift */; };
+		4F4A4ACB2C2B1BC600A9F4D3 /* ShoppingListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4A4ACA2C2B1BC600A9F4D3 /* ShoppingListViewModel.swift */; };
+		4F7F71142C20618E005FE90E /* DailyPlanViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7F71132C20618E005FE90E /* DailyPlanViewModel.swift */; };
+		4FA456612C19BD2800B51A3F /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA456602C19BD2800B51A3F /* Persistence.swift */; };
+		4FA456632C19C5DE00B51A3F /* RecipeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA456622C19C5DE00B51A3F /* RecipeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,13 +54,27 @@
 		4F09B43F2C01102F0005A798 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4F09B4412C0110310005A798 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F09B4442C0110310005A798 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		4F09B4462C0110310005A798 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		4F09B4492C0110310005A798 /* EatWell_V2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EatWell_V2.xcdatamodel; sourceTree = "<group>"; };
 		4F09B44F2C0110310005A798 /* EatWell_V2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EatWell_V2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F09B4532C0110310005A798 /* EatWell_V2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EatWell_V2Tests.swift; sourceTree = "<group>"; };
 		4F09B4592C0110310005A798 /* EatWell_V2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EatWell_V2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F09B45D2C0110310005A798 /* EatWell_V2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EatWell_V2UITests.swift; sourceTree = "<group>"; };
 		4F09B45F2C0110310005A798 /* EatWell_V2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EatWell_V2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4F09B46C2C0111580005A798 /* FoodItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodItem.swift; sourceTree = "<group>"; };
+		4F09B4702C08F39E0005A798 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		4F09B4752C0A6E6A0005A798 /* ShoppingList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingList.swift; sourceTree = "<group>"; };
+		4F09B4772C0A6E6A0005A798 /* DailyPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyPlan.swift; sourceTree = "<group>"; };
+		4F09B47E2C0A76F50005A798 /* FoodItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodItemViewModel.swift; sourceTree = "<group>"; };
+		4F09B4812C0A77A70005A798 /* FoodItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodItemView.swift; sourceTree = "<group>"; };
+		4F24E1012C56EB6200C658F1 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		4F24E1032C56EBAD00C658F1 /* RecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeView.swift; sourceTree = "<group>"; };
+		4F24E1052C56EBDA00C658F1 /* DailyPlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyPlanView.swift; sourceTree = "<group>"; };
+		4F24E1072C56EBF500C658F1 /* ShoppingListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListView.swift; sourceTree = "<group>"; };
+		4F4A4ACA2C2B1BC600A9F4D3 /* ShoppingListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListViewModel.swift; sourceTree = "<group>"; };
+		4F7F71132C20618E005FE90E /* DailyPlanViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyPlanViewModel.swift; sourceTree = "<group>"; };
+		4FA456602C19BD2800B51A3F /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		4FA456622C19C5DE00B51A3F /* RecipeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewModel.swift; sourceTree = "<group>"; };
+		4FDC8A2B2C32D8DA00C7D5D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,10 +125,13 @@
 		4F09B43C2C01102F0005A798 /* EatWell_V2 */ = {
 			isa = PBXGroup;
 			children = (
+				4FDC8A2B2C32D8DA00C7D5D8 /* Info.plist */,
+				4F09B4802C0A778C0005A798 /* Views */,
+				4F09B47D2C0A6E980005A798 /* ViewModels */,
+				4F09B4742C0A44070005A798 /* Models */,
 				4F09B43D2C01102F0005A798 /* EatWell_V2App.swift */,
-				4F09B43F2C01102F0005A798 /* ContentView.swift */,
+				4FA456602C19BD2800B51A3F /* Persistence.swift */,
 				4F09B4412C0110310005A798 /* Assets.xcassets */,
-				4F09B4462C0110310005A798 /* Persistence.swift */,
 				4F09B4482C0110310005A798 /* EatWell_V2.xcdatamodeld */,
 				4F09B4432C0110310005A798 /* Preview Content */,
 			);
@@ -131,6 +161,41 @@
 				4F09B45F2C0110310005A798 /* EatWell_V2UITestsLaunchTests.swift */,
 			);
 			path = EatWell_V2UITests;
+			sourceTree = "<group>";
+		};
+		4F09B4742C0A44070005A798 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4F09B4752C0A6E6A0005A798 /* ShoppingList.swift */,
+				4F09B4772C0A6E6A0005A798 /* DailyPlan.swift */,
+				4F09B4702C08F39E0005A798 /* Recipe.swift */,
+				4F09B46C2C0111580005A798 /* FoodItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4F09B47D2C0A6E980005A798 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				4F09B47E2C0A76F50005A798 /* FoodItemViewModel.swift */,
+				4FA456622C19C5DE00B51A3F /* RecipeViewModel.swift */,
+				4F7F71132C20618E005FE90E /* DailyPlanViewModel.swift */,
+				4F4A4ACA2C2B1BC600A9F4D3 /* ShoppingListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		4F09B4802C0A778C0005A798 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4F09B43F2C01102F0005A798 /* ContentView.swift */,
+				4F09B4812C0A77A70005A798 /* FoodItemView.swift */,
+				4F24E1012C56EB6200C658F1 /* MainView.swift */,
+				4F24E1032C56EBAD00C658F1 /* RecipeView.swift */,
+				4F24E1052C56EBDA00C658F1 /* DailyPlanView.swift */,
+				4F24E1072C56EBF500C658F1 /* ShoppingListView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,10 +328,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F09B46E2C0111580005A798 /* FoodItem.swift in Sources */,
+				4F24E1022C56EB6200C658F1 /* MainView.swift in Sources */,
+				4F09B47F2C0A76F50005A798 /* FoodItemViewModel.swift in Sources */,
 				4F09B44A2C0110310005A798 /* EatWell_V2.xcdatamodeld in Sources */,
-				4F09B4472C0110310005A798 /* Persistence.swift in Sources */,
 				4F09B4402C01102F0005A798 /* ContentView.swift in Sources */,
+				4F09B4822C0A77A70005A798 /* FoodItemView.swift in Sources */,
 				4F09B43E2C01102F0005A798 /* EatWell_V2App.swift in Sources */,
+				4F24E1062C56EBDA00C658F1 /* DailyPlanView.swift in Sources */,
+				4F09B4722C08F39E0005A798 /* Recipe.swift in Sources */,
+				4FA456632C19C5DE00B51A3F /* RecipeViewModel.swift in Sources */,
+				4F24E1042C56EBAD00C658F1 /* RecipeView.swift in Sources */,
+				4F09B4792C0A6E6A0005A798 /* ShoppingList.swift in Sources */,
+				4F7F71142C20618E005FE90E /* DailyPlanViewModel.swift in Sources */,
+				4F24E1082C56EBF500C658F1 /* ShoppingListView.swift in Sources */,
+				4F4A4ACB2C2B1BC600A9F4D3 /* ShoppingListViewModel.swift in Sources */,
+				4F09B47B2C0A6E6A0005A798 /* DailyPlan.swift in Sources */,
+				4FA456612C19BD2800B51A3F /* Persistence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +510,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"EatWell_V2/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera to take photos of your food items.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -460,6 +540,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"EatWell_V2/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera to take photos of your food items.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
