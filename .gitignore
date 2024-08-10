@@ -1,0 +1,13 @@
+# Xcode 忽略规则
+.DS_Store
+build/
+DerivedData/
+
+# 忽略 Xcode 用户数据
+*.xcuserdatad
+*.xcuserdata/
+
+# 忽略调试文件
+*.swp
+*.lock
+*.lockfile
